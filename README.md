@@ -22,6 +22,17 @@ Get up and running with large language models.
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
+```bash
+ollama pull llama3
+```
+
+```bash
+ollama run llama3
+```
+
+![](https://raw.githubusercontent.com/unton3ton/ollama/main/examples/testchat.png)
+
+
 [Manual install instructions](https://github.com/ollama/ollama/blob/main/docs/linux.md)
 
 ### Docker
@@ -396,3 +407,10 @@ See the [API documentation](./docs/api.md) for all endpoints.
 
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) project founded by Georgi Gerganov.
 
+
+![](https://raw.githubusercontent.com/unton3ton/ollama/main/examples/ollama.jpg)
+
+# Sources
+
+* [Локальные LLM в разработке: а почему бы и да?](https://habr.com/ru/companies/alfa/articles/827864/)
+* [Meta Llama 3: The most capable openly available LLM to date](https://ollama.com/library/llama3)
